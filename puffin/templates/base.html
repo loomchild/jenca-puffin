@@ -1,13 +1,13 @@
 {% extends "bootstrap/base.html" %}
 
 
-{% block title %}Puffin{% endblock %}
+{% block title %}Jenca{% endblock %}
 
 
 {% block head %}
 {{ super() }}
 <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}" type="image/png">
-<link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}?v=2" type="image/x-icon">
 {% endblock %}
 
 
@@ -38,7 +38,6 @@
             <span class="navbar-brand">
                 <a href="{{ url_for('index') }}">
                     <img src="{{ url_for('static', filename='images/logo.png') }}"/>
-                    <span class="version">&alpha; alpha</span>
                 </a>
             </span>
         </div>
@@ -97,13 +96,13 @@
 
 <footer class="footer">
 	<div class="container">
-		<p>
-            Created by <a href="http://loomchild.net">loomchild</a> et al. 
+	<p>
+{#            Created by <a href="http://loomchild.net">loomchild</a> et al. 
             Licensed under <a href="https://www.gnu.org/licenses/agpl.txt">AGPL</a>.
             Source code hosted on <a href="https://github.com/puffinrocks/puffin">Github</a>.
-            Version <a href="https://github.com/puffinrocks/puffin/commit/{{ version[1] }}">{{ "-".join(version) }}</a>.
-            Used by {{ stats.users }} users running {{ stats.apps }} apps via {{ stats.containers }} containers.
-        </p>
+            Version <a href="https://github.com/puffinrocks/puffin/commit/{{ version[1] }}">{{ "-".join(version) }}</a>. #}
+            Used by {{ stats.users }} users running {{ stats.apps }} apps {# via {{ stats.containers }} containers.#}
+        </p> 
 	</div>
 </footer>
 

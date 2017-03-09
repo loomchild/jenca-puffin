@@ -15,9 +15,22 @@ body {
   overflow-y: scroll;
 }
 
+.navbar-nav {
+	font-color: #FEFEFE;
+}
+
+.navbar-inverse {
+	background: #3540FE;
+}
+
 .navbar-brand a {
     text-decoration: none;
 }
+
+#navbar a {
+    color: white;
+}
+
 
 .footer {
   position: absolute;
@@ -61,7 +74,7 @@ body {
 
 .version {
     font-size: 16px;
-    color: #9d9d9d; 
+    color: #3540FE; 
 }
 
 .about div {
@@ -70,23 +83,23 @@ body {
 }
 
 .about .intro {
-    background-color: #ffffff;
+    background-color: #3540FE;
 }
 
 .about .catalog {
-    background-color: #dadbdb;
-}
+    background-color: #3540FE;
+}I
 
 .about .hosting {
-    background-color: #f5d4cf;
+    background-color: #3540FE;
 }
 
 .about .start {
-    background-color: #feedd5;
+    background-color: #3540FE;
 }
 
 .about .status {
-    background-color: #ffffff;
+    background-color: #3540FE;
 }
 
 .application div.meta {

@@ -2,31 +2,30 @@
 {% from 'macros.html' import application_thumbnail, new_application_thumbnail %}
 
 
-{% block title %}Puffin{% endblock %}
+{% block title %}Jenca{% endblock %}
 
 
 {% block head %}
 {{ super() }}
-<meta property="og:title" content="Puffin" />
+<meta property="og:title" content="Jenca" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://puffin.rocks" />
-<meta property="og:image" content="http://puffin.rocks/static/images/puffin.png" />
+<meta property="og:url" content="http://beta.jenca.org" />
+<meta property="og:image" content="http://puffin.rocks/static/images/jenca.png" />
 <meta property="og:image:width" content="400" />
 <meta property="og:image:height" content="400" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:description" content="Puffin is a webapp store. It's the easiest way to run software on the net." />
-<meta property="og:site_name" content="Puffin" />
+<meta property="og:image:type" content="image/jpg" />
+<meta property="og:description" content="Jenca is a construction app store." />
+<meta property="og:site_name" content="Jenca" />
 {% endblock %}
 
 
 {% block hero %}
 
-<div class="pull-right"><img src="{{ url_for('static', filename='images/puffin-scaled.png') }}"></img></div>
-<h1>Welcome to Puffin!</h1>
+{#<div class="pull-right"><img src="{{ url_for('static', filename='images/puffin-scaled.png') }}"></img></div>#}
+<h1>Welcome to JENCA!</h1>
 <p>
-    Puffin is a webapp store. It's the easiest way to run software on the net.
-    <a href="{{ url_for("about") }}">Learn more &raquo;</a>
-</p>
+   Jenca is a private cloud platform for BIM applications. You choose the applications, we make it simple for you to run them on demand!
+    </p>
 
 {% endblock %}
 
