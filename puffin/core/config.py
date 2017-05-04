@@ -60,12 +60,12 @@ class DefaultConfig:
     # MACHINE_PATH=/etc/puffin/machine/
 
     # HTTPS / Let's Encrypt
-    LETSENCRYPT = True
+    LETSENCRYPT = False
     LETSENCRYPT_TEST = True
 
     # URL and site ID for [Piwik](https://piwik.org). 
-    ANALYTICS_PIWIK_BASE_URL = "http://jenca.piwikpro.com"
-    ANALYTICS_PIWIK_SITE_ID = 1
+    ANALYTICS_PIWIK_BASE_URL = None
+    ANALYTICS_PIWIK_SITE_ID = None
 
     # Extra notifications for administrator
     NEW_USER_NOTIFICATION = False
