@@ -12,8 +12,8 @@ services:
         ports: 
             - "8080:8080"
         environment:
-            - SERVER_NAME=bimcontainer.com
-            - VIRTUAL_HOST=bimcontainer.com
+            - SERVER_NAME=www.bimcontainer.com
+            - VIRTUAL_HOST=www.bimcontainer.com
             - VIRTUAL_PORT=8080
             - SECRET_KEY=mylovelyhorse
             - SECURITY_REGISTERABLE=True
